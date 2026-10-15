@@ -1,0 +1,10 @@
+name: BHD-Timer
+version: '${version}'
+main: io.github.leonstange.bhdtimer.BhdTimerPlugin
+api-version: '26.3'
+prefix: 'BHD - Timer'
+description: 'BHD - Timer: gemeinsamer Server-Timer mit Actionbar und gespeichertem Zeitstand.'
+commands:
+  bhd-timer:
+    description: Steuert den gemeinsamen BHD-Timer (nur Operatoren).
+    usage: /bhd-timer <start|stop|reset|hide|show|version>
